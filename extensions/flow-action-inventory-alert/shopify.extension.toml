@@ -1,0 +1,47 @@
+api_version = "2026-04"
+
+[[extensions]]
+name = "Inventory Alert Action"
+handle = "inventory-alert-action"
+uid = "584c9120-3d60-a9aa-2685-f0e86c22ea9083dbba22"
+type = "flow_action"
+description = "Send low inventory alerts to Feishu or DingTalk"
+runtime_url = "https://{{PRODUCTION_DOMAIN}}/api/flow/inventory-alert"
+
+[settings]
+  [[settings.fields]]
+  type = "single_line_text_field"
+  key = "channel"
+  name = "Channel"
+  description = "feishu or dingtalk"
+  required = true
+
+  [[settings.fields]]
+  type = "single_line_text_field"
+  key = "webhook_url"
+  name = "Webhook URL"
+  required = true
+
+  [[settings.fields]]
+  type = "single_line_text_field"
+  key = "sku"
+  name = "SKU"
+  required = true
+
+  [[settings.fields]]
+  type = "number_decimal"
+  key = "available"
+  name = "Available"
+  required = true
+
+  [[settings.fields]]
+  type = "number_decimal"
+  key = "threshold"
+  name = "Threshold"
+  required = true
+
+  [[settings.fields]]
+  type = "single_line_text_field"
+  key = "location_name"
+  name = "Location Name"
+  required = false

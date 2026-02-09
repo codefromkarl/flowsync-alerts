@@ -1,0 +1,16 @@
+api_version = "2026-04"
+
+[[extensions]]
+name = "Order Line Item Updated Trigger"
+handle = "order-line-item-updated"
+uid = "688ed832-30c9-583a-ee3c-b4cfd59756039cd22396"
+type = "flow_trigger"
+description = "Triggers when an order line item is updated"
+
+[settings]
+  [[settings.fields]]
+  type = "single_line_text_field"
+  key = "changed fields contains"
+  name = "Changed fields contains"
+  description = "Optional filter keyword, e.g. quantity"
+  required = false
