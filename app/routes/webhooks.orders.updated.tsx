@@ -16,7 +16,7 @@ type OrderLineItemTrigger = {
 };
 
 export const action = async ({ request }: ActionFunctionArgs) => {
-  const { payload, topic, shop, admin, session } = await authenticate.webhook(request);
+  const { payload, shop, admin, session } = await authenticate.webhook(request);
 
   if (!session || !admin) {
     return new Response();

@@ -1,6 +1,7 @@
 import type { LoaderFunctionArgs } from "react-router";
 
-export const loader = async ({ request }: LoaderFunctionArgs) => {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export const loader = async (_args: LoaderFunctionArgs) => {
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
