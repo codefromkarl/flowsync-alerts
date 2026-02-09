@@ -6,7 +6,7 @@ handle = "inventory-alert-action"
 uid = "584c9120-3d60-a9aa-2685-f0e86c22ea9083dbba22"
 type = "flow_action"
 description = "Send low inventory alerts to Feishu or DingTalk"
-runtime_url = "https://{{PRODUCTION_DOMAIN}}/api/flow/inventory-alert"
+runtime_url = "https://flowsync-alerts-production.up.railway.app/api/flow/inventory-alert"
 
 [settings]
   [[settings.fields]]

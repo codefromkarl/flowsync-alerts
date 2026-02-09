@@ -83,8 +83,8 @@ FlowSync Alerts 将 Shopify Flow 与飞书和钉钉无缝连接。
 ## Support Information
 
 - **Support Email:** support@codefromkarl.xyz
-- **Privacy Policy URL:** https://{{PRODUCTION_DOMAIN}}/privacy
-- **App Website:** https://{{PRODUCTION_DOMAIN}}
+- **Privacy Policy URL:** https://flowsync-alerts-production.up.railway.app/privacy
+- **App Website:** https://flowsync-alerts-production.up.railway.app
 
 ---
 
